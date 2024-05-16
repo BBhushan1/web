@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- --------- UNICONS ---------- -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <!-- --------- CSS ---------- -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- --------- FAVICON ---------- -->
+    <link rel="shortcut icon" href="assets/images/favicon-32x32.png" type="image/x-icon">
+    <title>Bhushan_Borse</title>
+</head>
+<body>
+   <div class="container">
+    <!-- --------------- HEADER --------------- -->
+      <nav id="header">
+        <div class="nav-logo">
+            <p class="nav-name">Bhushan</p>
+            <span>.</span>
+        </div>
+        <div class="nav-menu" id="myNavMenu">
+            <ul class="nav_menu_list">
+                <li class="nav_list">
+                    <a href="#home" class="nav-link active-link">Home</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#about" class="nav-link">About</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#projects" class="nav-link">Projects</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#certification" class="nav-link">Certifications</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#contact" class="nav-link">Contact</a>
+                    <div class="circle"></div>
+                </li>
+            </ul>
+        </div>
+        
+            <div class="nav-button">
+                <a href="./assets/images/resumeMy.pdf" target="_blank" class="btn" >Download CV </a>
+            </div>
+            <div class="nav-menu-btn">
+                <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+            </div>
+        
+        
+        
+      </nav>
+    <!-- -------------- MAIN ---------------- -->
+    <main class="wrapper">
+       <!-- -------------- FEATURED BOX ---------------- -->
+       <section class="featured-box" id="home">
+          <div class="featured-text">
+            <div class="featured-text-card">
+                <span>Bhushan Borse</span>
+            </div>
+            <div class="featured-name">
+                <p>I'm <span class="typedText"></span></p>
+            </div>
+            <div class="featured-text-info">
+                <p>"As a passionate and dedicated individual with a strong foundation in data science, machine learning, and development, I am eager to leverage my skills and knowledge to contribute effectively to projects and continue learning in a dynamic environment."
+                </p>
+            </div>
+            <div class="featured-text-btn">
+                <button class="btn blue-btn" onclick="scrollToContact()">Hire Me</button>
+                <a href="./assets/images/resumeMy.pdf" target="_blank" class="btn" >Download CV </a>
+            </div>
+            <div class="social_icons">
+                <div class="icon"><a href="https://www.github.com/BBhushan1"><i class="uil uil-github-alt"></i></a></div>
+                <div class="icon"><a href="http://www.linkedin.com/in/bhushan-borse-0a34b41ba"><i class="uil uil-linkedin-alt"></i></a></div>
+                <div class="icon"><a href="mailto:borsebhushan23@gmail.com"><i class="uil uil-envelope"></i></a></div>
+            </div>
+            
+          </div>
+          <div class="featured-image">
+            <div class="image">
+                <img src="assets/images/avatar.jpg" alt="avatar">
+            </div>
+          </div>
+          <div class="scroll-icon-box">
+            <a href="#about" class="scroll-btn">
+                <i class="uil uil-mouse-alt"></i>
+                <p>Scroll Down</p>
+            </a>
+          </div>
+       </section>
+       <!-- -------------- ABOUT BOX ---------------- -->
+       <section class="section" id="about">
+        <div class="top-header">
+            <h1>About Me</h1>
+        </div>
+        <div class="about-container">
+            <div class="about-box">
+                <a href="./assets/images/Heuristic_InternshipCertificate-1.jpg" target="_blank"> <!-- Link to your GitHub repository -->
+                    <i class="uil uil-briefcase-alt"></i>
+                    <h3>Experience</h3>
+                    <label>Python Internship</label>
+                    <label>Feb'22 - May'18</label>
+                </a>
+            </div>
+            <div class="about-box">
+                    <i class="uil uil-users-alt"></i>
+                    <h3>Education</h3>
+                    <label>Master of Computer Application 2022-2024</label>
+                    <label>Bachelor of Computer Application 2019-2022</label>
+                </a>
+            </div>
+            <!-- Add more project boxes as needed -->
+        </div>
+        <div class="skills-container">
+            <h3>Skills</h3>
+            <div class="skills-list">
+              <div class="skill">Python</div>
+              <div class="skill">Django</div>
+              <div class="skill">SQL</div>
+              <div class="skill">NodeJS</div>
+              <div class="skill">AI/ML</div>
+              <div class="skill">Neural Network</div>
+              <div class="skill">Deep Learning</div>
+              <div class="skill">TensorFlow/Keras</div>
+              <div class="skill">CI/CD</div>
+              <div class="skill">Cloud Computing</div>
+              <div class="skill">CyberSecurity</div>
+              <div class="skill">Data Science</div>
+              <div class="skill">Data Analysis</div>
+            </div>
+          </div>
+    </section>
+      
+       <!-- -------------- PROJECT BOX ---------------- -->
+       <section class="section" id="projects">
+          <div class="top-header">
+              <h1>Projects</h1>
+              <label>click for github</label>
+          </div>
+            <div class="project-container">
+                <div class="project-box">
+                    <a href="https://github.com/BBhushan1/Image_Classification" target="_blank">
+                        <i class="uil uil-award"></i>
+                        <h3>Deep CNN Image Classification</h3>
+                        <label>Developed and optimized CNN model in TensorFlow/Keras for superior image classification performance.
+                            </label>
+                    </a>
+                </div>
+                <div class="project-box">
+                    <a href="https://github.com/BBhushan1/Machine_Learning" target="_blank">
+                        <i class="uil uil-award"></i>
+                        <h3>Heart Desease Prediction</h3>
+                        <label>Developed a predictive model for diagnosing
+                            heart disease using machine learning algorithms. </label>
+                    </a>
+                </div>
+                <div class="project-box">
+                    <a href="https://github.com/BBhushan1/Hostel-Management-System" target="_blank">
+                        <i class="uil uil-award"></i>
+                        <h3>Hostel Management System</h3>
+                        <label>Developed and managed an online room booking system.</label>
+                    </a>
+                </div>
+          </div>
+       </section>
+
+<!-- -------------- certifications ---------------- -->
+<section class="section" id="certification">
+    <div class="top-header">
+        <h1>Certifications</h1>
+        <label>click to view certificate</label>
+    </div>
+    <div class="certification-container">
+        <div class="certification-box">
+            <a href="./assets/images/Neural_Network and Deep_Learning.pdf" target="_blank">
+                <i class="uil uil-award"></i>
+                <h3>Neural Network & Deep Learning</h3>
+                <label>Coursera DeepLearning.AI</label>
+            </a>
+        </div>
+        <div class="certification-box">
+            <a href="./assets/images/PythonFor_DataScience,AI_and_Devlopment.pdf" target="_blank">
+                <i class="uil uil-award"></i>
+                <h3>Python for DataScience, AI & Development</h3>
+                <label>Coursera IBM</label>
+            </a>
+        </div>
+        <div class="certification-box">
+            <a href="./assets/images/Supervise Learning.pdf" target="_blank">
+                <i class="uil uil-award"></i>
+                <h3>Supervised Machine Learning: Regression & Classification</h3>
+                <label>Coursera DeepLearning.AI</label>
+            </a>
+        </div>
+        <div class="certification-box">
+            <a href="./assets/images/Database_and_SQL_fro_Data_Science_with_Python.pdf" target="_blank">
+                <i class="uil uil-award"></i>
+                <h3>Database & SQL for DataScience with Python</h3>
+                <label>Coursera IBM</label>
+            </a>
+        </div>
+        <div class="certification-box">
+            <a href="./assets/images/artificial-intelligence_certificate_of_achievement_h6dxzno.pdf" target="_blank">
+                <i class="uil uil-award"></i>
+                <h3>Artificial Intelligence</h3>
+                <label>Accenture FutureLearn</label>
+            </a>
+        </div>
+        <div class="certification-box">
+            <a href="./assets/images/Foundations_of_Cybersecurity_Google.pdf" target="_blank">
+                <i class="uil uil-award"></i>
+                <h3>Foundations of Cyber Security</h3>
+                <label>Coursera Google</label>
+            </a>
+        </div>
+        <div class="certification-box">
+            <a href="./assets/images/Cyber Security and Privacy.pdf" target="_blank">
+                <i class="uil uil-award"></i>
+                <h3>CyberSecurity & Privacy</h3>
+                <label>NPTEL</label>
+            </a>
+        </div>
+    </div>
+</section>
+
+
+       <!-- -------------- CONTACT BOX ---------------- -->
+       <section class="section" id="contact">
+          <div class="top-header">
+            <h1>Get in touch</h1>
+            <span>"Are you looking to hire a passionate and dedicated fresher like me? Let's connect!</span>
+          </div>
+          <div class="contact-info">
+            <h2>Find Me <i class="uil uil-corner-right-down"></i></h2>
+            <p><i class="uil uil-envelope"></i> Email: <a href="mailto:borsebhushan23@gmail.com" target="_blank">borsebhushan23@gmail.com</a></p>
+            <p><i class="uil uil-phone"></i> Tel: +91 8208023589</p>
+            <p><i class="uil-location-point"></i> Jalgaon, Maharashtra, India</p>
+        </div>
+       </section>
+  
+    <!-- --------------- FOOTER --------------- -->
+    <footer>
+        <div class="top-footer">
+            <p>Bhushan Borse .</p>
+        </div>
+        <div class="middle-footer">
+            <ul class="footer-menu">
+                <li class="footer_menu_list">
+                    <a href="#home">Home</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#about">About</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#projects">Projects</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#certification">Certifications</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-social-icons">
+                <div class="icon"><a href="https://www.github.com/BBhushan1"><i class="uil uil-github-alt"></i></a></div>
+                <div class="icon"><a href="http://www.linkedin.com/in/bhushan-borse-0a34b41ba"><i class="uil uil-linkedin-alt"></i></a></div>
+                <div class="icon"><a href="mailto:borsebhushan23@gmail.com"><i class="uil uil-envelope"></i></a></div>
+               
+        </div>
+        <div class="bottom-footer">
+            <p>Copyright &copy; <a href="#home" style="text-decoration: none;">Bhushan Borse</a> - All rights reserved</p>
+        </div>
+    </footer>
+    </div>
+    <!-- ----- TYPING JS Link ----- -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+       <!-- ----- SCROLL REVEAL JS Link----- -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- ----- MAIN JS ----- -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
